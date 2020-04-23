@@ -1,6 +1,32 @@
 * { padding: 0; margin: 0; outline: none!important; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-html, body { height: 100%; }
+.help{cursor: help;}
+.txt{cursor: default;}
+.img
+{
+    width: 100%;
+    max-width: 394px;
+    height: auto;
+}
+.money
+{
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+ }
+body
+{
+    background: #061438;
+    color: #ec03a7;
+    font-family: Comic Sans MS, Segoe Print, Ink Free, asinastra, Comic Sans, Ink Free, Segoe Script;
+}
+
+@media screen and (max-width: 469px) {
+  .vertical-nav-btn {
+    visibility: hidden;
+    display: none;
+  }
+}
 
 .vertical-nav,
 .vertical-nav-btn { -webkit-transition: all 0.4s; -o-transition: all 0.4s; transition: all 0.4s; }
