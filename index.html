@@ -36,15 +36,16 @@
 						<script language="javascript">
 							function Copy()
 							{
-								var copyText = "https://enot-star.github.io/anigrum/";
-								navigator.clipboard.writeText(copyText)
-								.then(() => {
+								try {
+									var copyText = "https://enot-star.github.io/anigrum/";
+									navigator.clipboard.writeText(copyText)
 									console.log('Link was copy)))');
-								})
-								.catch(err => {
-								console.log('Sorry, boss, i cant copy', err);
-  							});
-								alert("Ссылка скопирована в буфер обмена)\nI love you :3");
+									alert("Ссылка скопирована в буфер обмена)\nI love you :3 ");
+								}
+								catch (err) {
+								console.log('Sorry, boss, i cant copy error:\n', err);
+								alert("Что-то пошло не так, ссылку не удалось скопировать(((\nПрости меня, юзверь");
+  							}
 							}
 						</script>
 					</li>
