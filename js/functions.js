@@ -8,10 +8,8 @@ $(function(){
 
         return false;
     })
-
     $(document).mouseup(function (e){
         var container = $(".vertical-nav-btn");
-
         if (!container.is(e.target) && container.has(e.target).length === 0){
             container.removeClass('active');
             $('.vertical-nav-overlay').removeClass('active');
