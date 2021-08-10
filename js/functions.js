@@ -20,7 +20,7 @@ $(function(){
 function CopyLink()
 {
     try {
-        var copyText = "https://vlad-kusb.github.io/anigrum/";
+        var copyText = "https://kusb.github.io/anigrum/";
         navigator.clipboard.writeText(copyText);
         console.log('Link was copy)))');
         alert("Ссылка скопирована в буфер обмена)\nI love you :3 ");
