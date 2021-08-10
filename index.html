@@ -12,21 +12,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="index.css" type="text/css" media="all" />
         
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script type="text/javascript" src="js/functions.js"></script>
 
         <title>Anigrum</title>
 
-        <style>
-        @font-face
-        {
-            font-family: Comic Sans MS;
-            src: url(fonts/comic.ttf), url(fonts/comici.ttf), url(fonts/comicbd.ttf), url(fonts/comicz.ttf);
-        }
-        
-        </style>
     </head>
     <body>
     	<div class="vertical-nav-holder">
@@ -34,22 +26,7 @@
 			<div class="vertical-nav">
 				<ul>
 					<li>
-						<a href="" onclick="Copy()" title="Скопировать ссылку"><i class="fa fa-copy"></i></a>
-						<script language="javascript">
-							function Copy()
-							{
-								try {
-									var copyText = "https://vlad-kusb.github.io/anigrum/";
-									navigator.clipboard.writeText(copyText)
-									console.log('Link was copy)))');
-									alert("Ссылка скопирована в буфер обмена)\nI love you :3 ");
-								}
-								catch (err) {
-								console.log('Sorry, boss, i cant copy error:\n', err);
-								alert("Что-то пошло не так, ссылку не удалось скопировать(((\nПрости меня, юзверь");
-  							}
-							}
-						</script>
+						<a href="" onclick="CopyLink()" title="Скопировать ссылку"><i class="fa fa-copy"></i></a>
 					</li>
 
 					<li>
@@ -69,9 +46,9 @@
 		<div class="vertical-nav-overlay"></div><!-- /.vertical-nav-overlay -->
 
         <h1 align="center" class = 'txt'>Anigrum</h1>
-        <p align="center" class = 'txt'>Соц. сеть находящаяся в разработке
+        <p align="center" class = 'txt'>Соц. сеть, находящаяся в разработке (По-моему, она так и не будет разработана, но это не точно)
             <br>
-            <a href = 'https://vk.com/@284185443-about-anigrum' title = 'Статья вк' target="_blank" class = 'help'>Подробнее туть</a>
+            <a href = 'https://vk.com/@284185443-about-anigrum' title = 'Статья вк' target="_blank" class = 'help'>Подробнее тут</a>
             <br>
             <img src = 'images/Dh66qNNUEAAb_rS.png' width="100%" max-width= '394' height="auto" alt="Мидория"  title="Мидория" class = 'img'>
         </p>
@@ -82,6 +59,10 @@
         <div class = 'money'>
             <iframe src="https://money.yandex.ru/quickpay/shop-widget?writer=seller&targets=%D0%9D%D0%B0%20%D0%BB%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%B0&targets-hint=&default-sum=100&button-text=11&payment-type-choice=on&hint=&successURL=http%3A%2F%2Fvlad-kusb.github.io%2Fanigrum&quickpay=shop&account=410015230600416" width="100%" height="222" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
         </div>
+        <br>
+        <p align="center" class = 'txt'>
+            Короче, видимо, оно реально больше разрабатываться не будет, поэтому ловим кайфарики😎
+        </p>
         <!--<p>
             Спасибо за посещение, дружище)
         </p>-->

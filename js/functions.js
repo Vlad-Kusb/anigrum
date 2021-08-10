@@ -17,3 +17,16 @@ $(function(){
         }
     });
 });
+function CopyLink()
+{
+    try {
+        var copyText = "https://vlad-kusb.github.io/anigrum/";
+        navigator.clipboard.writeText(copyText);
+        console.log('Link was copy)))');
+        alert("Ссылка скопирована в буфер обмена)\nI love you :3 ");
+    }
+    catch (err) {
+    console.log('Sorry, boss, i cant copy error:\n', err);
+    alert("Что-то пошло не так, ссылку не удалось скопировать(((\nПрости меня, юзверь");
+    }
+}
